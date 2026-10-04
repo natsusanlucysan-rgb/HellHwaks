@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "hellhawks",
+  "version": "${version}",
+  "name": "Hells Hawks",
+  "description": "Cliente social de chat (HUD) para servidores Cobblemon como Diosesmon.",
+  "authors": ["Hells Hawks"],
+  "license": "All-Rights-Reserved",
+  "icon": "assets/hellhawks/icon.png",
+  "environment": "client",
+  "entrypoints": { "client": ["com.hellhawks.HellHawksClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.7",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
